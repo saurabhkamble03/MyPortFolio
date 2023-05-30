@@ -16,26 +16,14 @@ const Home = () => {
           </div>
         </div>
         <div className='skills'>
-          <h1>Skills</h1>
-          <ol className='list'>
-            <li className='item'>
-              <h2>Front-End</h2>
-              <span>
-                React Js, HTML, CSS,
-                BootStrap, MaterialUI
-              </span>
-            </li>
-            <li className='item'>
-              <h2>Back-End</h2>
-              <span>
-                Java Spring Boot, ASP.NET MVC, MySQL, MSSQL
-              </span>
-            </li>
-            <li className='item'>
-              <h2>Languages</h2>
-              <span>Java, JavaScript, C#, Python, C, C++, SQL</span>
-            </li>
-          </ol>
+          <h1>About Me</h1>
+          <div className='aboutme'>
+            My name is Saurabh Kamble. I have completed B.E. in Computer Engineering from 
+            JSPM's Imperial College Of Engineering & Research, Wagholi, Pune. I like 
+            developing applications rich in UI/UX. I also have keen interest in Java Spring
+            Boot.
+ 
+          </div>
         </div>
     </div>
   )
