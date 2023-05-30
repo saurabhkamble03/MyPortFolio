@@ -59,7 +59,42 @@
   .skills img {
     width: 80px;
   }
+
+  .aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    /* text-align: center; */
+    color: black;
+    /* background-color: rgb(221, 255, 222); */
+  }
   
+  .aboutme ul{
+    margin-top: 50px;
+    margin-left: 20px;
+    color:black;
+  }
+
+  .aboutme li{
+    font-size: 25px;
+    color: rgb(62, 0, 121);
+  }
+
+  @media only screen and (max-width: 650px) {
+    .aboutme{
+      margin: 0;
+      font-size: 30px;
+    }
+
+    .aboutme li{
+      margin: none;
+      padding: none;
+      font-size: 15px;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
     .about h2 {
       font-size: 40px;
